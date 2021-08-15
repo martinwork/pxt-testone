@@ -1,3 +1,8 @@
+const enum testoneChoice {
+    one,
+    two
+}
+
 namespace testone {
 
     /**
@@ -11,5 +16,11 @@ namespace testone {
     */
     //% shim=testone::two
     export function two(): void { basic.showString("two") }
+
+    /**
+    * Display any.
+    */
+    //% shim=testone::any
+    export function any(choice: testoneChoice): void { basic.showString("any") }
 
 }
