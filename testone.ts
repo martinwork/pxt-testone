@@ -3,24 +3,25 @@ const enum testoneChoice {
     two
 }
 
+//% block="testone"
 namespace testone {
 
     /**
     * Display one.
     */
-    //% shim=testone::one
+    //% block="testone one" shim=testone::one
     export function one(): void { basic.showString("one") }
 
     /**
     * Display two.
     */
-    //% shim=testone::two
+    //% block="testone two" shim=testone::two
     export function two(): void { basic.showString("two") }
 
     /**
     * Display any.
     */
-    //% shim=testone::any
+    //% block="testone any" shim=testone::any
     export function any(choice: testoneChoice): void {
         switch (choice)
         {
