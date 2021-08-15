@@ -21,7 +21,7 @@ namespace testone {
     /**
     * Display any.
     */
-    //% block="testone any" shim=testone::any
+    //% shim=testone::any
     export function any(choice: testoneChoice): void {
         switch (choice)
         {
