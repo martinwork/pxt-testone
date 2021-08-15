@@ -7,19 +7,20 @@ enum class testoneChoice {
     two
 };
 
+//% block="testone"
 namespace testone {
 
-//%
+//% block="display one"
 void one() {
     uBit.display.scroll("11");
 }
 
-//%
+//% block="display two"
 void two() {
     uBit.display.scroll("22");
 }
 
-//%
+//% block="display any"
 void any( testoneChoice choice) {
   switch (choice)
   {
