@@ -1,6 +1,6 @@
 {
     "name": "testone",
-    "version": "0.0.1",
+    "version": "0.0.3",
     "description": "Test extension",
     "license": "MIT",
     "dependencies": {

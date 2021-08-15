@@ -24,10 +24,10 @@ void any( testoneChoice choice) {
   switch (choice)
   {
     case testoneChoice::one:
-      testone.one();
+      testone::one();
       break;
     case testoneChoice::two:
-      testone.two();
+      testone::two();
       break;
   }
 }
