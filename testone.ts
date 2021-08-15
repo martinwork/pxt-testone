@@ -24,10 +24,10 @@ namespace testone {
     export function any(choice: testoneChoice): void {
         switch (choice)
         {
-            case testoneChoice::one:
+            case testoneChoice.one:
                 testone.one();
                 break;
-            case testoneChoice::two:
+            case testoneChoice.two:
                 testone.two();
                 break;
         }
